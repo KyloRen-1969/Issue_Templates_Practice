@@ -17,7 +17,7 @@ body:
         - "David Coons"
         - "Lindsay Burdick"
   - type: textarea
-    id: context
+    id: reporter
     attributes:
       label: Reporter/Department
   - type: textarea
@@ -33,13 +33,13 @@ body:
       label: Business/Use Case Impact
       placeholder: It will allow the company to do Y that is needed for Z.
   - type: textarea
-    id: context
+    id: ac
     attributes:
       label: Acceptance Criteria
       placeholder: |
         What is the required acceptance criteria?
   - type: textarea
-    id: context
+    id: outcome
     attributes:
       label: Expected Outcome
       placeholder: |
