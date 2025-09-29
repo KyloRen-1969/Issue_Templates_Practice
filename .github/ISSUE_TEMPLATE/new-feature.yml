@@ -21,19 +21,23 @@ body:
     attributes:
       label: Reporter/Department
   - type: dropdown
+    id: Demo
+    attributes:
+      label: "Is a UAT/Sign Off demo needed?"
+      options:
+        - "Yes"
+        - "No"
+  - type: dropdown
     id: Admin
     attributes:
       label: "Is this Admin work?"
       options:
         - "Yes"
         - "No"
-  - type: dropdown
+  - type: boolean
     id: AdminQA
     attributes:
       label: "Is this Admin QA?"
-      options:
-        - "Yes"
-        - "No"
   - type: textarea
     id: description
     attributes:
@@ -44,7 +48,7 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: Business/Use Case Impact
+      label: Business/Use Case Impact (Optional)
       placeholder: It will allow the company to do Y that is needed for Z.
   - type: textarea
     id: ac
