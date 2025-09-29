@@ -20,6 +20,20 @@ body:
     id: reporter
     attributes:
       label: Reporter/Department
+  - type: dropdown
+    id: Admin
+    attributes:
+      label: "Is this Admin work?"
+      options:
+        - "Yes"
+        - "No"
+  - type: dropdown
+    id: AdminQA
+    attributes:
+      label: "Is this Admin QA?"
+      options:
+        - "Yes"
+        - "No"
   - type: textarea
     id: description
     attributes:
