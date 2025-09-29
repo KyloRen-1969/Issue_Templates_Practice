@@ -62,3 +62,21 @@ body:
     id: attachments
     attributes:
       label: Attachments (optional)
+  - type: input
+    id: Team_Review
+    attributes:
+      label: Review Date
+  - type: dropdown
+    id: Sizing
+    attributes:
+      label: "What is the feature size?"
+      options:
+        - "XS (0.5 - 1 days "
+        - "S (1 - 2 days)"
+        - "M (3 -5 days)"
+        - "L (5 - 9 days)"
+        - "XL (10 - 15 days)"
+  - type: input
+    id: Effort
+    attributes:
+      label: Effort Level
