@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Please fill out the sections below to properly describe the new feature you are suggesting.
-    - type: dropdown
+  - type: dropdown
     id: Owner
     attributes:
       label: "Who is the owner of this feature"
