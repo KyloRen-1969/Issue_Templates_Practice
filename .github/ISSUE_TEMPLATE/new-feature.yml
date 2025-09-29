@@ -16,7 +16,7 @@ body:
         - "Garrett Heathcote"
         - "David Coons"
         - "Lindsay Burdick"
-  - type: textarea
+  - type: text
     id: reporter
     attributes:
       label: Reporter/Department
