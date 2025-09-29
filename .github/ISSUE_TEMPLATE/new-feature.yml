@@ -34,10 +34,13 @@ body:
       options:
         - "Yes"
         - "No"
-  - type: boolean
+  - type: dropdown
     id: AdminQA
     attributes:
       label: "Is this Admin QA?"
+      options:
+        - "Yes"
+        - "No"
   - type: textarea
     id: description
     attributes:
