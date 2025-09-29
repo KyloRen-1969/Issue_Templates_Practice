@@ -6,31 +6,45 @@ body:
     attributes:
       value: |
         Please fill out the sections below to properly describe the new feature you are suggesting.
+    - type: dropdown
+    id: Owner
+    attributes:
+      label: "Who is the owner of this feature"
+      options:
+        - "Connor Smith"
+        - "Peter Sherman"
+        - "Garrett Heathcote"
+        - "David Coons"
+        - "Lindsay Burdick"
+  - type: text 
+    id: context
+    attributes:
+      label: Reporter/Department
   - type: textarea
     id: description
     attributes:
-      label: Describe the feature
-      placeholder: A button in the screen X that allows to do Y
+      label: Description:
+      placeholder: As a <user>, I want <goal> so that <reason>
     validations:
       required: true
   - type: textarea
     id: rationale
     attributes:
-      label: It should be implemented because
-      placeholder: It will allow to do Y that is needed for Z
+      label: Business/Use Case Impact
+      placeholder: It will allow the company to do Y that is needed for Z.
   - type: textarea
     id: context
     attributes:
-      label: Additional context
+      label: Acceptance Criteria
       placeholder: |
-        Add any other context or screenshots about the feature request here.
-  - type: dropdown
-    id: assign
+        What is the required acceptance criteria?
+  - type: textarea
+    id: context
     attributes:
-      label: "Would you like to work on this issue?"
-      options:
-        - "Yes"
-  - type: markdown
+      label: Expected Outcome
+      placeholder: |
+        What is the expected outcome?
+  - type: textarea
+    id: attachments
     attributes:
-      value: |
-        Thanks for your suggestion! Let's see together if it can be implemented.
+      label: Attachments (optional)
