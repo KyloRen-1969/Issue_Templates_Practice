@@ -66,7 +66,7 @@ body:
       label: Attachments (optional)
   - type: markdown
     attributes:
-      value: "# **Team Review** :face_with_monocle:"
+      value: "# :bulb: **Team Review** :bulb:"
   - type: input
     id: Team_Review
     attributes:
