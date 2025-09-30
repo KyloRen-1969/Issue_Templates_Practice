@@ -36,19 +36,19 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "## Description"
+      label: Description
       placeholder: As a <user>, I want <goal> so that <reason>
     validations:
       required: true
   - type: textarea
     id: rationale
     attributes:
-      label: "## Business/Use Case Impact (Optional)"
+      label: Business/Use Case Impact (Optional)
       placeholder: It will allow the company to do Y that is needed for Z.
   - type: textarea
     id: ac
     attributes:
-      label: "## Acceptance Criteria"
+      label: Acceptance Criteria
       placeholder: |
         What is the required acceptance criteria?
     validations:
@@ -56,13 +56,13 @@ body:
   - type: textarea
     id: outcome
     attributes:
-      label: "## Expected Outcome"
+      label: Expected Outcome
       placeholder: |
         What is the expected outcome?
   - type: textarea
     id: attachments
     attributes:
-      label: "## Attachments (optional)"
+      label: Attachments (optional)
   - type: input
     id: Team_Review
     attributes:
