@@ -20,7 +20,7 @@ body:
     id: reporter
     attributes:
       label: Reporter/Department
-  - type: checkbox
+  - type: checkboxes
     id: Demo
     attributes:
       label: "Is a UAT/Sign Off demo needed?"
