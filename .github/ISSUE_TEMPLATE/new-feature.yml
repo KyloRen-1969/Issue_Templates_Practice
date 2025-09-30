@@ -94,6 +94,8 @@ body:
     id: Developer
     attributes:
       label: Code Confirmed in PROD
+      placeholder: |
+        Garrett Heathcote
   - type: checkboxes
     id: Smoke
     attributes:
