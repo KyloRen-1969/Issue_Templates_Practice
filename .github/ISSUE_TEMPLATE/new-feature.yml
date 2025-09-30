@@ -20,20 +20,19 @@ body:
     id: reporter
     attributes:
       label: Reporter/Department
-  - type: dropdown
+  - type: checkbox
     id: Demo
     attributes:
       label: "Is a UAT/Sign Off demo needed?"
       options:
-        - "Yes"
-        - "No"
-  - type: dropdown
+        - label: Yes
+  - type: checkboxes
     id: Admin
     attributes:
       label: "Is this Admin work?"
       options:
-        - "Yes"
-        - "No"
+        - label: Admin Work
+        - label: Admin QA
   - type: dropdown
     id: AdminQA
     attributes:
@@ -44,31 +43,33 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
+      label: ## Description
       placeholder: As a <user>, I want <goal> so that <reason>
     validations:
       required: true
   - type: textarea
     id: rationale
     attributes:
-      label: Business/Use Case Impact (Optional)
+      label: "## Business/Use Case Impact (Optional)"
       placeholder: It will allow the company to do Y that is needed for Z.
   - type: textarea
     id: ac
     attributes:
-      label: Acceptance Criteria
+      label: "## Acceptance Criteria"
       placeholder: |
         What is the required acceptance criteria?
+    validations:
+      required: true
   - type: textarea
     id: outcome
     attributes:
-      label: Expected Outcome
+      label: "## Expected Outcome"
       placeholder: |
         What is the expected outcome?
   - type: textarea
     id: attachments
     attributes:
-      label: Attachments (optional)
+      label: "## Attachments (optional)"
   - type: input
     id: Team_Review
     attributes:
