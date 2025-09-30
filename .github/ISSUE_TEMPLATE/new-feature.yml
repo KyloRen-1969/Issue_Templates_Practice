@@ -68,7 +68,9 @@ body:
     attributes:
       value: "# :bulb: **Team Review** :bulb:"
   - type: input
-    id: Team_Review
+    id: review_date
+    description: "Enter date in MM-DD-YYYY format"
+    placeholder: "12-25-2025"
     attributes:
       label: Review Date
   - type: dropdown
