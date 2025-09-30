@@ -16,14 +16,10 @@ body:
         - "Garrett Heathcote"
         - "David Coons"
         - "Lindsay Burdick"
-  layout:
-    - [null, Owner, null]
   - type: input
     id: reporter
     attributes:
       label: Reporter/Department
-  layout:
-    - [null, reporter, null]
   - type: checkboxes
     id: Demo
     attributes:
