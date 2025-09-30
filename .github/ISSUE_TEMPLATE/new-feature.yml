@@ -65,7 +65,7 @@ body:
       label: Attachments (optional)
   - type: markdown
     attributes:
-      value: "## Team Review"
+      value: "# Team Review"
   - type: input
     id: Team_Review
     attributes:
@@ -86,7 +86,7 @@ body:
       label: Effort Level
   - type: markdown
     attributes:
-      value: "## Post Deployment"
+      value: "# Post Deployment"
   - type: input
     id: Developer
     attributes:
