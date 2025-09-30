@@ -1,0 +1,105 @@
+name: New feature
+description: Suggest or request a new feature
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to properly describe the new feature you are suggesting.
+  - type: dropdown
+    id: Owner
+    attributes:
+      label: "Who is the owner of this feature"
+      options:
+        - "Connor Smith"
+        - "Peter Sherman"
+        - "Garrett Heathcote"
+        - "David Coons"
+        - "Lindsay Burdick"
+layout:
+  - [null, Owner, null]
+  - type: input
+    id: reporter
+    attributes:
+      label: Reporter/Department
+layout:
+  - [null, reporter, null]
+  - type: checkboxes
+    id: Demo
+    attributes:
+      label: "Is a UAT/Sign Off demo needed?"
+      options:
+        - label: UAT/Sign Off demo needed
+  - type: dropdown
+    id: Admin
+    attributes:
+      label: "Is this Admin work?"
+      multiple: true
+      options:
+        - Admin Work
+        - Admin QA
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: As a <user>, I want <goal> so that <reason>
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Business/Use Case Impact (Optional)
+      placeholder: It will allow the company to do Y that is needed for Z.
+  - type: textarea
+    id: ac
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        What is the required acceptance criteria?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected Outcome
+      placeholder: |
+        What is the expected outcome?
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments (optional)
+  - type: markdown
+    attributes:
+      value: "# Team Review"
+  - type: input
+    id: Team_Review
+    attributes:
+      label: Review Date
+  - type: dropdown
+    id: Sizing
+    attributes:
+      label: "What is the feature size?"
+      options:
+        - "XS (0.5 - 1 days "
+        - "S (1 - 2 days)"
+        - "M (3 -5 days)"
+        - "L (5 - 9 days)"
+        - "XL (10 - 15 days)"
+  - type: input
+    id: Effort
+    attributes:
+      label: Effort Level
+  - type: markdown
+    attributes:
+      value: "# Post Deployment"
+  - type: input
+    id: Developer
+    attributes:
+      label: Code Confirmed in PROD
+  - type: checkboxes
+    id: Smoke
+    attributes:
+      label: "Has this been smoke tested"
+      options:
+        - label: Smoke test confirmed
+  
