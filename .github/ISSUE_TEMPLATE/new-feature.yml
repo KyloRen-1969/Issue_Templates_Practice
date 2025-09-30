@@ -63,6 +63,9 @@ body:
     id: attachments
     attributes:
       label: Attachments (optional)
+  - type: markdown
+    attributes:
+      value: "## Team Review"
   - type: input
     id: Team_Review
     attributes:
@@ -81,3 +84,17 @@ body:
     id: Effort
     attributes:
       label: Effort Level
+  - type: markdown
+    attributes:
+      value: "## Post Deployment"
+  - type: input
+    id: Developer
+    attributes:
+      label: Code Confirmed in PROD
+  - type: checkboxes
+    id: Smoke
+    attributes:
+      label: "Has this been smoke tested"
+      options:
+        - label: Smoke test confirmed
+  
