@@ -33,13 +33,6 @@ body:
       options:
         - label: Admin Work
         - label: Admin QA
-  - type: dropdown
-    id: AdminQA
-    attributes:
-      label: "Is this Admin QA?"
-      options:
-        - "Yes"
-        - "No"
   - type: textarea
     id: description
     attributes:
