@@ -25,7 +25,7 @@ body:
     attributes:
       label: "Is a UAT/Sign Off demo needed?"
       options:
-        - label: Yes
+        - label: UAT/Sign Off demo needed
   - type: checkboxes
     id: Admin
     attributes:
