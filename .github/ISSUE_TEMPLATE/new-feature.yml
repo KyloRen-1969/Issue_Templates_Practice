@@ -26,13 +26,14 @@ body:
       label: "Is a UAT/Sign Off demo needed?"
       options:
         - label: UAT/Sign Off demo needed
-  - type: checkboxes
+  - type: dropdown
     id: Admin
     attributes:
       label: "Is this Admin work?"
+      multiple: true
       options:
-        - label: Admin Work
-        - label: Admin QA
+        - Admin Work
+        - Admin QA
   - type: textarea
     id: description
     attributes:
